@@ -97,6 +97,26 @@ body {
   }
 }
 
+/* Working method */
+.tinted-image {
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(44, 116, 101, 0.98),
+      rgba(44, 116, 101, 0.98)
+    ),
+    /* bottom, image */
+    url(../images/fallforest.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sectionMargin{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
